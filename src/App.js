@@ -8,9 +8,12 @@ import Projects from "./pages/Projects";
 import Project from "./pages/Project";
 import Contacts from "./pages/Contacts";
 
+import ScrollToTop from "./components/utils/scrollToTop";
+
 function App() {
   return (
     <Router>
+      <ScrollToTop/>
       <div className="App">
         <Navigationbar />
         <Routes>
