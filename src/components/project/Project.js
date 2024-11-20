@@ -1,5 +1,4 @@
 import "./style.css"
-import img1 from "./../../img/projects/01.jpg";
 //props - св-ва компонента
 const Project = ({title, img}) => {
     return (
