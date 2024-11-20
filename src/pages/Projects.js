@@ -13,7 +13,12 @@ const Projects = () => {
                         // придется всем обнавлять индексы (не на этом сайте, но все равно. попытаюсь присвоить действительные 
                         // индексы и записать их)
                         // обновлено. Пришлось вернуться к индексу, когда добавлял рабочие переходы к проектам т.к. реакт роутер дом использует id
-                        return <Project key={index} title={project.title} img={project.img} />;
+                        return <Project 
+                        key={index} 
+                        title={project.title} 
+                        img={project.img}
+                        index={index}
+                        />;
                     })}
                 </ul>
             </div>
