@@ -10,9 +10,13 @@
 
 	background-color: var(--header-bg);
 	background-image: url('./../../img/header-bg.png');
+	
+
 	background-repeat: no-repeat;
 	background-size: auto;
 	background-position: center center;
+
+
 
 	color: var(--header-text);
 	text-align: center;
@@ -37,7 +41,7 @@
 
 .header__title em {
 	font-style: normal;
-	color: var(--accent);
+	color: var(--green);
 }
 
 .header__text {
