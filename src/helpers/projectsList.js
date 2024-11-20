@@ -31,19 +31,21 @@ const projects = [
         skills: 'React',
         img: img02,
         imgBig: img02big,
+        gitHubLink: 'https://github.com',
     },
     {
         title: 'Vnumberseo portal',
         skills: 'React',
         img: img03,
         imgBig: img03big,
+        gitHubLink: 'https://github.com',
     }, 
     {
         title: 'Dating app',
         skills: 'React',
         img: img04,
         imgBig: img04big,
-        gitHubLink: 'https://github.com',
+        
     },
     {
         title: 'Landing',
@@ -56,7 +58,7 @@ const projects = [
         skills: 'React',
         img: img06,
         imgBig: img06big,
-        gitHubLink: 'https://github.com',
+       
     },
 ];
 
